@@ -1,0 +1,33 @@
+.make-it-pop {
+  filter: drop-shadow(0 0 10px purple);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  align-self: flex-start;
+}
+
+.middle {
+  align-self: center;
+}
+
+.bottom {
+  align-self: flex-end;
+}
